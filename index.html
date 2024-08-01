@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css\style.css">
+    
 </head>
 <body>
     <nav> <!-- letak navigasi -->
     <header>
         <div class="logo-icon"></div> 
+        <h1>Welcome <span id="welcome-name">Pro Player</span> to Our Website</h1>
     </header>
     <section class="nav-container">
         <a class="nav-item-left">Home</a>
@@ -41,14 +43,16 @@
                 <p>we'll reach you to play together</p>
                  <div class="label-form">
                     <label for="name">Your Name</label>
-                    <input type="text" name="name" id="name" placeholder="Alex si Singa">
+                    <input required type="text" name="name" id="name" placeholder="Alex si Singa">
                     <label for="psn-username">username PSN</label>
-                    <input type="text" name="psn-username" id="psn-username" placeholder="alexthelion">
+                    <input required type="text" name="psn-username" id="psn-username" placeholder="alexthelion">
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="alexthelion@lion.com">
+                    <input required type="text" name="email" id="email" placeholder="alexthelion@lion.com">
                  </div>
+                 <input type="submit" value="Submit">
             </form>
         </section> 
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
